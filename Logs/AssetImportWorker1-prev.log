@@ -1,0 +1,1147 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityHub\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/UnityHub/New Unity Project/HeroesNeverDie
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54501
+Successfully changed project path to: E:/UnityHub/New Unity Project/HeroesNeverDie
+E:/UnityHub/New Unity Project/HeroesNeverDie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28292]  Target information:
+
+Player connection [28292]  * "[IP] 172.22.0.1 [Port] 0 [Flags] 2 [Guid] 3296348585 [EditorId] 3296348585 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0K0OCM4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28292]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3296348585 [EditorId] 3296348585 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0K0OCM4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Unable to join player connection multicast group (err: 10013).
+Player connection [28292] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 61.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path E:/UnityHub/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityHub/New Unity Project/HeroesNeverDie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     8095 MB
+    Driver:   31.0.101.2121
+Initialize mono
+Mono path[0] = 'E:/UnityHub/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityHub/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityHub/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityHub/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017645 seconds.
+- Loaded All Assemblies, in  2.115 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.847 seconds
+Domain Reload Profiling: 3962ms
+	BeginReloadAssembly (614ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (250ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (284ms)
+	LoadAllAssembliesAndSetupDomain (906ms)
+		LoadAssemblies (606ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (897ms)
+			TypeCache.Refresh (889ms)
+				TypeCache.ScanAssembly (810ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1849ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (44ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (1106ms)
+			ProcessInitializeOnLoadMethodAttributes (318ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.603 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.320 seconds
+Domain Reload Profiling: 10918ms
+	BeginReloadAssembly (1070ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (281ms)
+	RebuildNativeTypeToScriptingClass (84ms)
+	initialDomainReloadingComplete (286ms)
+	LoadAllAssembliesAndSetupDomain (2874ms)
+		LoadAssemblies (2210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1299ms)
+			TypeCache.Refresh (1058ms)
+				TypeCache.ScanAssembly (963ms)
+			ScanForSourceGeneratedMonoScriptInfo (173ms)
+			ResolveRequiredComponents (61ms)
+	FinalizeReload (6322ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5048ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (44ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (878ms)
+			ProcessInitializeOnLoadAttributes (3797ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 21.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (312.9 KB). Loaded Objects now: 4605.
+Memory consumption went from 152.8 MB to 152.5 MB.
+Total: 19.311200 ms (FindLiveObjects: 1.072600 ms CreateObjectMapping: 1.054700 ms MarkObjects: 15.940800 ms  DeleteObjects: 1.239200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.861 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.304 seconds
+Domain Reload Profiling: 10161ms
+	BeginReloadAssembly (3229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2201ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (277ms)
+	RebuildCommonClasses (216ms)
+	RebuildNativeTypeToScriptingClass (96ms)
+	initialDomainReloadingComplete (194ms)
+	LoadAllAssembliesAndSetupDomain (1118ms)
+		LoadAssemblies (1527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (54ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (92ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (5307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4073ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (47ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (795ms)
+			ProcessInitializeOnLoadAttributes (2885ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (129ms)
+Refreshing native plugins compatible for Editor in 18.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (285.3 KB). Loaded Objects now: 4661.
+Memory consumption went from 152.7 MB to 152.4 MB.
+Total: 24.102600 ms (FindLiveObjects: 1.153300 ms CreateObjectMapping: 1.240800 ms MarkObjects: 20.966500 ms  DeleteObjects: 0.736900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:Unity.Play.Publisher.Editor: 48e8ab5cb9cd0cbbaed0d7c351ab5406 -> 
+  custom:scripting/monoscript/fileName/SettingsGUILayout.cs: 1bf4073b7b90c06a4199be7cdd2735ca -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PublisherWindow.cs: a29eeabed0c9d0114ef8bd94b6bbbe0e -> 
+  custom:scripting/monoscript/fileName/UserSettingsRepository.cs: ae597ef6d1f82569d0712c7aa6402b32 -> 
+  custom:scripting/monoscript/fileName/UnityConnectSession.cs: 81000dcd61327f8b7d6494a0ca07b89a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PublisherExamples.cs: d67324d69f8ca6ba12aeae2047801d40 -> 
+  custom:scripting/monoscript/fileName/Reducer.cs: ff42cf995375eca2ddbec55d915f32f9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 8c612763925b943c64e54855c759cc9e -> 
+  custom:scripting/monoscript/fileName/AnalyticsHelper.cs: 90a3c2817891c78f31bba044bfba19e2 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 136f9181567622a0dc32613566fb6f9c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PublisherBuildProcessor.cs: d5936c886290e19f64d4a1e878e0d15c -> 
+  custom:scripting/monoscript/fileName/PublisherUtils.cs: ece0b77e51cab9eef68c82b8d15e22e0 -> 
+  custom:scripting/monoscript/fileName/UserSettings.cs: 7f25df7dc904a2c7ba535252bfa35f9c -> e9dce23a4b1d0c68860976425321645e
+  custom:scripting/monoscript/fileName/Middleware.cs: c02c201933810f28405e59fd21d1c01a -> 
+  custom:scripting/monoscript/fileName/PackageSettingsRepository.cs: 3d7ef57a71ca69fa31cb043698cb6983 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FileSettingsRepository.cs: 26dd9fac1ce03dccc58801e79f909037 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ISettingsRepository.cs: c644889b75049794adfff59de4a57ec6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UserSettingsProvider.cs: cf93c9e7f0242ada7160bbcb19be7d9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProjectUserSettings.cs: 45b935268a6ef891e8577fe004b3f872 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 9d4a157f104d3387ed20a7ff2d47d587 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/AppState.cs: f99798133fcc7a29d4907586a94766ba -> 
+  custom:scripting/monoscript/fileName/Store.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 8120324be4f28417c9962bc3a65d04a0 -> 
+  custom:scripting/monoscript/fileName/ValueWrapper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SettingsDictionary.cs: deb5cd076ff61db1f023cc41ad83ead7 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: ecfde58f5f2276c57435e977dfe7f74c -> 
+  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridgeDev.001: 5d1183d15ce201ce7152061c0cf0e28e -> 
+  custom:scripting/monoscript/fileName/PublisherSettingsManager.cs: 309005a13b994a81c9335082ee614ebe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UIElementsUtils.cs: 783eb644ce2816674786787e48ace72a -> 
+  custom:scripting/monoscript/fileName/LocalizationDatabaseBridge.cs: 3cc57cea2cef6a88a20824c5a8b80705 -> 
+  custom:scripting/monoscript/fileName/Settings.cs: ea9d1b04d3864b3b689bed16ba2743db -> 
+  custom:scripting/monoscript/fileName/Attributes.cs: d94dab8e1cad1d516625e289629ba937 -> 0918f2ac579e1d4ee97c23132d40c768
+  custom:scripting/monoscript/fileName/UserSetting.cs: 9a8b723fb560f0e7a90b73c9a63a7958 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (272.6 KB). Loaded Objects now: 4661.
+Memory consumption went from 88.4 MB to 88.1 MB.
+Total: 20.902800 ms (FindLiveObjects: 1.078700 ms CreateObjectMapping: 1.479900 ms MarkObjects: 17.617100 ms  DeleteObjects: 0.722200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:Unity.Play.Publisher.Editor: 48e8ab5cb9cd0cbbaed0d7c351ab5406 -> 
+  custom:scripting/monoscript/fileName/SettingsGUILayout.cs: 1bf4073b7b90c06a4199be7cdd2735ca -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PublisherWindow.cs: a29eeabed0c9d0114ef8bd94b6bbbe0e -> 
+  custom:scripting/monoscript/fileName/UserSettingsRepository.cs: ae597ef6d1f82569d0712c7aa6402b32 -> 
+  custom:scripting/monoscript/fileName/UnityConnectSession.cs: 81000dcd61327f8b7d6494a0ca07b89a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PublisherExamples.cs: d67324d69f8ca6ba12aeae2047801d40 -> 
+  custom:scripting/monoscript/fileName/Reducer.cs: ff42cf995375eca2ddbec55d915f32f9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 8c612763925b943c64e54855c759cc9e -> 
+  custom:scripting/monoscript/fileName/AnalyticsHelper.cs: 90a3c2817891c78f31bba044bfba19e2 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 136f9181567622a0dc32613566fb6f9c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PublisherBuildProcessor.cs: d5936c886290e19f64d4a1e878e0d15c -> 
+  custom:scripting/monoscript/fileName/PublisherUtils.cs: ece0b77e51cab9eef68c82b8d15e22e0 -> 
+  custom:scripting/monoscript/fileName/UserSettings.cs: 7f25df7dc904a2c7ba535252bfa35f9c -> e9dce23a4b1d0c68860976425321645e
+  custom:scripting/monoscript/fileName/Middleware.cs: c02c201933810f28405e59fd21d1c01a -> 
+  custom:scripting/monoscript/fileName/PackageSettingsRepository.cs: 3d7ef57a71ca69fa31cb043698cb6983 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FileSettingsRepository.cs: 26dd9fac1ce03dccc58801e79f909037 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ISettingsRepository.cs: c644889b75049794adfff59de4a57ec6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UserSettingsProvider.cs: cf93c9e7f0242ada7160bbcb19be7d9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProjectUserSettings.cs: 45b935268a6ef891e8577fe004b3f872 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 9d4a157f104d3387ed20a7ff2d47d587 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/AppState.cs: f99798133fcc7a29d4907586a94766ba -> 
+  custom:scripting/monoscript/fileName/Store.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 8120324be4f28417c9962bc3a65d04a0 -> 
+  custom:scripting/monoscript/fileName/ValueWrapper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SettingsDictionary.cs: deb5cd076ff61db1f023cc41ad83ead7 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: ecfde58f5f2276c57435e977dfe7f74c -> 
+  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridgeDev.001: 5d1183d15ce201ce7152061c0cf0e28e -> 
+  custom:scripting/monoscript/fileName/PublisherSettingsManager.cs: 309005a13b994a81c9335082ee614ebe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UIElementsUtils.cs: 783eb644ce2816674786787e48ace72a -> 
+  custom:scripting/monoscript/fileName/LocalizationDatabaseBridge.cs: 3cc57cea2cef6a88a20824c5a8b80705 -> 
+  custom:scripting/monoscript/fileName/Settings.cs: ea9d1b04d3864b3b689bed16ba2743db -> 
+  custom:scripting/monoscript/fileName/Attributes.cs: d94dab8e1cad1d516625e289629ba937 -> 0918f2ac579e1d4ee97c23132d40c768
+  custom:scripting/monoscript/fileName/UserSetting.cs: 9a8b723fb560f0e7a90b73c9a63a7958 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.833 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.143 seconds
+Domain Reload Profiling: 9975ms
+	BeginReloadAssembly (661ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (62ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (141ms)
+	RebuildNativeTypeToScriptingClass (83ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (839ms)
+		LoadAssemblies (1178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (8146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (26ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (472ms)
+			ProcessInitializeOnLoadAttributes (3352ms)
+			ProcessInitializeOnLoadMethodAttributes (249ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (121ms)
+Refreshing native plugins compatible for Editor in 16.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (285.5 KB). Loaded Objects now: 4677.
+Memory consumption went from 152.7 MB to 152.4 MB.
+Total: 16.146500 ms (FindLiveObjects: 1.171800 ms CreateObjectMapping: 0.958200 ms MarkObjects: 13.345500 ms  DeleteObjects: 0.667200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:Unity.Play.Publisher.Editor: 48e8ab5cb9cd0cbbaed0d7c351ab5406 -> 
+  custom:scripting/monoscript/fileName/SettingsGUILayout.cs: 1bf4073b7b90c06a4199be7cdd2735ca -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PublisherWindow.cs: a29eeabed0c9d0114ef8bd94b6bbbe0e -> 
+  custom:scripting/monoscript/fileName/UserSettingsRepository.cs: ae597ef6d1f82569d0712c7aa6402b32 -> 
+  custom:scripting/monoscript/fileName/UnityConnectSession.cs: 81000dcd61327f8b7d6494a0ca07b89a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PublisherExamples.cs: d67324d69f8ca6ba12aeae2047801d40 -> 
+  custom:scripting/monoscript/fileName/Reducer.cs: ff42cf995375eca2ddbec55d915f32f9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 8c612763925b943c64e54855c759cc9e -> 
+  custom:scripting/monoscript/fileName/AnalyticsHelper.cs: 90a3c2817891c78f31bba044bfba19e2 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 136f9181567622a0dc32613566fb6f9c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PublisherBuildProcessor.cs: d5936c886290e19f64d4a1e878e0d15c -> 
+  custom:scripting/monoscript/fileName/PublisherUtils.cs: ece0b77e51cab9eef68c82b8d15e22e0 -> 
+  custom:scripting/monoscript/fileName/UserSettings.cs: 7f25df7dc904a2c7ba535252bfa35f9c -> e9dce23a4b1d0c68860976425321645e
+  custom:scripting/monoscript/fileName/Middleware.cs: c02c201933810f28405e59fd21d1c01a -> 
+  custom:scripting/monoscript/fileName/PackageSettingsRepository.cs: 3d7ef57a71ca69fa31cb043698cb6983 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FileSettingsRepository.cs: 26dd9fac1ce03dccc58801e79f909037 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ISettingsRepository.cs: c644889b75049794adfff59de4a57ec6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UserSettingsProvider.cs: cf93c9e7f0242ada7160bbcb19be7d9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProjectUserSettings.cs: 45b935268a6ef891e8577fe004b3f872 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 9d4a157f104d3387ed20a7ff2d47d587 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/AppState.cs: f99798133fcc7a29d4907586a94766ba -> 
+  custom:scripting/monoscript/fileName/Store.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 8120324be4f28417c9962bc3a65d04a0 -> 
+  custom:scripting/monoscript/fileName/ValueWrapper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SettingsDictionary.cs: deb5cd076ff61db1f023cc41ad83ead7 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: ecfde58f5f2276c57435e977dfe7f74c -> 
+  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridgeDev.001: 5d1183d15ce201ce7152061c0cf0e28e -> 
+  custom:scripting/monoscript/fileName/PublisherSettingsManager.cs: 309005a13b994a81c9335082ee614ebe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UIElementsUtils.cs: 783eb644ce2816674786787e48ace72a -> 
+  custom:scripting/monoscript/fileName/LocalizationDatabaseBridge.cs: 3cc57cea2cef6a88a20824c5a8b80705 -> 
+  custom:scripting/monoscript/fileName/Settings.cs: ea9d1b04d3864b3b689bed16ba2743db -> 
+  custom:scripting/monoscript/fileName/Attributes.cs: d94dab8e1cad1d516625e289629ba937 -> 0918f2ac579e1d4ee97c23132d40c768
+  custom:scripting/monoscript/fileName/UserSetting.cs: 9a8b723fb560f0e7a90b73c9a63a7958 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (272.4 KB). Loaded Objects now: 4677.
+Memory consumption went from 88.4 MB to 88.2 MB.
+Total: 14.904300 ms (FindLiveObjects: 0.761900 ms CreateObjectMapping: 0.741200 ms MarkObjects: 12.336900 ms  DeleteObjects: 1.061500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:Unity.Play.Publisher.Editor: 48e8ab5cb9cd0cbbaed0d7c351ab5406 -> 
+  custom:scripting/monoscript/fileName/SettingsGUILayout.cs: 1bf4073b7b90c06a4199be7cdd2735ca -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PublisherWindow.cs: a29eeabed0c9d0114ef8bd94b6bbbe0e -> 
+  custom:scripting/monoscript/fileName/UserSettingsRepository.cs: ae597ef6d1f82569d0712c7aa6402b32 -> 
+  custom:scripting/monoscript/fileName/UnityConnectSession.cs: 81000dcd61327f8b7d6494a0ca07b89a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PublisherExamples.cs: d67324d69f8ca6ba12aeae2047801d40 -> 
+  custom:scripting/monoscript/fileName/Reducer.cs: ff42cf995375eca2ddbec55d915f32f9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 8c612763925b943c64e54855c759cc9e -> 
+  custom:scripting/monoscript/fileName/AnalyticsHelper.cs: 90a3c2817891c78f31bba044bfba19e2 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 136f9181567622a0dc32613566fb6f9c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PublisherBuildProcessor.cs: d5936c886290e19f64d4a1e878e0d15c -> 
+  custom:scripting/monoscript/fileName/PublisherUtils.cs: ece0b77e51cab9eef68c82b8d15e22e0 -> 
+  custom:scripting/monoscript/fileName/UserSettings.cs: 7f25df7dc904a2c7ba535252bfa35f9c -> e9dce23a4b1d0c68860976425321645e
+  custom:scripting/monoscript/fileName/Middleware.cs: c02c201933810f28405e59fd21d1c01a -> 
+  custom:scripting/monoscript/fileName/PackageSettingsRepository.cs: 3d7ef57a71ca69fa31cb043698cb6983 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FileSettingsRepository.cs: 26dd9fac1ce03dccc58801e79f909037 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ISettingsRepository.cs: c644889b75049794adfff59de4a57ec6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UserSettingsProvider.cs: cf93c9e7f0242ada7160bbcb19be7d9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProjectUserSettings.cs: 45b935268a6ef891e8577fe004b3f872 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 9d4a157f104d3387ed20a7ff2d47d587 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/AppState.cs: f99798133fcc7a29d4907586a94766ba -> 
+  custom:scripting/monoscript/fileName/Store.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 8120324be4f28417c9962bc3a65d04a0 -> 
+  custom:scripting/monoscript/fileName/ValueWrapper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SettingsDictionary.cs: deb5cd076ff61db1f023cc41ad83ead7 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: ecfde58f5f2276c57435e977dfe7f74c -> 
+  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridgeDev.001: 5d1183d15ce201ce7152061c0cf0e28e -> 
+  custom:scripting/monoscript/fileName/PublisherSettingsManager.cs: 309005a13b994a81c9335082ee614ebe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UIElementsUtils.cs: 783eb644ce2816674786787e48ace72a -> 
+  custom:scripting/monoscript/fileName/LocalizationDatabaseBridge.cs: 3cc57cea2cef6a88a20824c5a8b80705 -> 
+  custom:scripting/monoscript/fileName/Settings.cs: ea9d1b04d3864b3b689bed16ba2743db -> 
+  custom:scripting/monoscript/fileName/Attributes.cs: d94dab8e1cad1d516625e289629ba937 -> 0918f2ac579e1d4ee97c23132d40c768
+  custom:scripting/monoscript/fileName/UserSetting.cs: 9a8b723fb560f0e7a90b73c9a63a7958 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158407.111092 seconds.
+  path: Assets/Undead Survivor/Fonts/neodgm.ttf
+  artifactKey: Guid(e715fcabbb6163e48b780b3b92979f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Undead Survivor/Fonts/neodgm.ttf using Guid(e715fcabbb6163e48b780b3b92979f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92ad9da388364d5d4735213d5389de67') in 0.489019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 13.617050 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0056.png
+  artifactKey: Guid(b0b9f7132b7d0b946ac5919666d3f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0056.png using Guid(b0b9f7132b7d0b946ac5919666d3f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a58ce9007ca241ce099566a5d2e79f9') in 0.081545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.388813 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0057.png
+  artifactKey: Guid(8042f7e553d99a94394051c1dfa520ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0057.png using Guid(8042f7e553d99a94394051c1dfa520ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '47c7e301f2a27316d126f64c21a36221') in 0.084354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.317579 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0058.png
+  artifactKey: Guid(74bd0a6f84396fe4e8af89a89b55be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0058.png using Guid(74bd0a6f84396fe4e8af89a89b55be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2b552d7acd6d5c864c697532d3464dc') in 0.037634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0058.png
+  artifactKey: Guid(258feb4064c8cfc45b5fc0e3be74681b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0058.png using Guid(258feb4064c8cfc45b5fc0e3be74681b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cfe148151fd7f7b3cb49ef58d3669e42') in 0.065865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.261148 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0059.png
+  artifactKey: Guid(abd923ba71dfb504abaf2158cc2ec494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0059.png using Guid(abd923ba71dfb504abaf2158cc2ec494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e8c0840917e8900d8c9a8ea1333e626d') in 0.070552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0060.png
+  artifactKey: Guid(ccc063dd8b6387747826323d1fe192e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0060.png using Guid(ccc063dd8b6387747826323d1fe192e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d709fa36e60289a96a7034b2fd24ba2') in 0.056152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002704 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0060.png
+  artifactKey: Guid(5275a438efe1230419995e95992a5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0060.png using Guid(5275a438efe1230419995e95992a5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f911549badd01a297be90fe90b08f7b') in 0.065327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0061.png
+  artifactKey: Guid(3cc8e7c69e729f24ca4da64fea767263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0061.png using Guid(3cc8e7c69e729f24ca4da64fea767263) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a95478078f0f16bd809520745e52f795') in 0.083130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.327782 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0062.png
+  artifactKey: Guid(92ba351e717a1f84f9d9b4986cd75938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0062.png using Guid(92ba351e717a1f84f9d9b4986cd75938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '319d0999a2a71529c769452d114a3481') in 0.106721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.332015 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0063.png
+  artifactKey: Guid(2a67b9c15e3a61043bfd5f24b5950d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0063.png using Guid(2a67b9c15e3a61043bfd5f24b5950d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '892359d75d2e6cb4d43d3bc0df282380') in 0.076213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0063.png
+  artifactKey: Guid(77f24b6170140594baadc99834861696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0063.png using Guid(77f24b6170140594baadc99834861696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '828111107c600b1279b0a9c3f76ca322') in 0.090556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0064.png
+  artifactKey: Guid(52ad1b30d4925ee42ae9c581395ddaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0064.png using Guid(52ad1b30d4925ee42ae9c581395ddaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf936a42e702ff0d7304662bb61c886e') in 0.070910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.227513 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0065.png
+  artifactKey: Guid(c91a2fc58b358a74c891a06a855212d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0065.png using Guid(c91a2fc58b358a74c891a06a855212d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c106911ff757025a69554344e5cd6255') in 0.064877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0065.png
+  artifactKey: Guid(313b1014248c3a7459e465f5afcd58d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0065.png using Guid(313b1014248c3a7459e465f5afcd58d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd48d7ef9b2cdef0db384d629e683b63') in 0.066138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0066.png
+  artifactKey: Guid(f54edc86f0b0adf48b33f1879c270c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0066.png using Guid(f54edc86f0b0adf48b33f1879c270c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e909b145feac7f31c05aa57c8c07c7bf') in 0.082559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.148759 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0067.png
+  artifactKey: Guid(af95e8055a0c7bc449843c7e2a437ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0067.png using Guid(af95e8055a0c7bc449843c7e2a437ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a25fc406e0653bd5474c8f3e5ed2b8b4') in 0.086824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.616084 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0068.png
+  artifactKey: Guid(5c742a66a3d7ecc459fe30f1204baa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0068.png using Guid(5c742a66a3d7ecc459fe30f1204baa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad9d97a5991cef2882c98e4ecbb34e27') in 0.074060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0069.png
+  artifactKey: Guid(9df8336d8a29c034b8ce3fb52c403499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0069.png using Guid(9df8336d8a29c034b8ce3fb52c403499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '42d8a5f2a8aebcebd7e80302c0a560f3') in 0.080543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.154516 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0069.png
+  artifactKey: Guid(04a547eb48e8ffb4ab65480aba537622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0069.png using Guid(04a547eb48e8ffb4ab65480aba537622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0744f7bca0291cb5d30da9547904f66b') in 0.056339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0070.png
+  artifactKey: Guid(a9a1afac2e0470f418bf9c0f45ec4c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0070.png using Guid(a9a1afac2e0470f418bf9c0f45ec4c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0340cdc4de214e7b606bd94e8c3a92a7') in 0.071941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.103621 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0071.png
+  artifactKey: Guid(8bb74a9e588cfbe4cbea750ece243f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0071.png using Guid(8bb74a9e588cfbe4cbea750ece243f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59b63d50320a302eec972167fb1d49ed') in 0.075110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0071.png
+  artifactKey: Guid(1eddd93e297de37449eec8cec7628dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0071.png using Guid(1eddd93e297de37449eec8cec7628dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e766742c4a970c227a414fdc0150f279') in 0.083439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0072.png
+  artifactKey: Guid(2c5e034986442db4aa85386b8c9c97e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0072.png using Guid(2c5e034986442db4aa85386b8c9c97e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '56c4817a5e30d3c2308210d1df947673') in 0.076514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0073.png
+  artifactKey: Guid(5dffef1ba31dc1a4dbac8e1f551c53a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0073.png using Guid(5dffef1ba31dc1a4dbac8e1f551c53a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab206cc589c87b583059ee5e99c52a51') in 0.072559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048947 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0073.png
+  artifactKey: Guid(17e2151ec3e42904fb41a2962282eb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0073.png using Guid(17e2151ec3e42904fb41a2962282eb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5f53e822c4efa72ec73de3871ada258a') in 0.072808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0074.png
+  artifactKey: Guid(d182895d8e6af1e44ab56c554f21b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0074.png using Guid(d182895d8e6af1e44ab56c554f21b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '589cbc9cda3f3a9e467a36df4defec22') in 0.067322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.787832 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0075.png
+  artifactKey: Guid(8040998ea6de7284391fb35bac7f08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0075.png using Guid(8040998ea6de7284391fb35bac7f08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ade8237149ec4409b202b3c379e4580') in 0.077199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0075.png
+  artifactKey: Guid(77dd3c95326b38448af527c17b27095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0075.png using Guid(77dd3c95326b38448af527c17b27095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '56a5e7bbe22e3bf81bbb4317597563b0') in 0.075856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.246067 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0076.png
+  artifactKey: Guid(7ac5975b35d0f994eab5ce34b983c226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0076.png using Guid(7ac5975b35d0f994eab5ce34b983c226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '05f6f693f1ffc409db0414b3f7a1bb5a') in 0.058563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0077.png
+  artifactKey: Guid(7a9db19527a83be4897da39cb2c7387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0077.png using Guid(7a9db19527a83be4897da39cb2c7387f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ea1f16a0dfea176bd4eea7762f7e2b05') in 0.071745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.281772 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0077.png
+  artifactKey: Guid(eb72864b70dec234bbbec9e4951769a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0077.png using Guid(eb72864b70dec234bbbec9e4951769a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e39d565fcd9a1732ec651537b39e6111') in 0.065854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0078.png
+  artifactKey: Guid(548d41ad52798a848b55949ff7e267d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0078.png using Guid(548d41ad52798a848b55949ff7e267d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '148d1b9ffef63d8dab029cf93e9a254f') in 0.083698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.253856 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0079.png
+  artifactKey: Guid(c024bfbc9a527e045b45fc205a01005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0079.png using Guid(c024bfbc9a527e045b45fc205a01005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db242492959cd78b4bef7cb173cb4a27') in 0.092443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0080.png
+  artifactKey: Guid(ec76e0e717e2e954987898506e280c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0080.png using Guid(ec76e0e717e2e954987898506e280c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b2ce581d2c2f5133abf5a71d6ddb8a08') in 0.086971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0080.png
+  artifactKey: Guid(44bd798e2faeb4647904d3b6447dc84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0080.png using Guid(44bd798e2faeb4647904d3b6447dc84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '306664b4fb4207b8b2ef32098fbf5f00') in 0.096757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0079.png
+  artifactKey: Guid(6a0482e590175c84bbbe411f55073f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0079.png using Guid(6a0482e590175c84bbbe411f55073f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49459dbb30ecf8167417339b3a0eb9b0') in 0.086773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.166987 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0081.png
+  artifactKey: Guid(5cb02ec357a639f488cf310b3340d259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0081.png using Guid(5cb02ec357a639f488cf310b3340d259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e84dfdc71c6ecd1bccddea2c8ce61aa7') in 0.092089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0082.png
+  artifactKey: Guid(99b18d0c83f70724d8d229054f04954a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0082.png using Guid(99b18d0c83f70724d8d229054f04954a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e49193a7a5958325d1ad0b17c57cda15') in 0.081407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.252492 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0083.png
+  artifactKey: Guid(004e99acd26f8f74bbd91e0537289f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0083.png using Guid(004e99acd26f8f74bbd91e0537289f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7480d59a60a4ff162659491e70d78431') in 0.070919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0083.png
+  artifactKey: Guid(f0108a501d29fd942a7bbef9210c55b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0083.png using Guid(f0108a501d29fd942a7bbef9210c55b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '03ad1b8621815bb9450b7b3e35956470') in 0.072238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.096415 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0084.png
+  artifactKey: Guid(4f649fbe058a6554c82948caf3dbf726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0084.png using Guid(4f649fbe058a6554c82948caf3dbf726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a8dddb4f35c7634a40e417506a50fae8') in 0.067332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0085.png
+  artifactKey: Guid(13eb3db935cd09044bbf88abc7cb8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0085.png using Guid(13eb3db935cd09044bbf88abc7cb8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49530534dcf32a43d3038a821ebb5e17') in 0.070201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (279.9 KB). Loaded Objects now: 4726.
+Memory consumption went from 93.5 MB to 93.2 MB.
+Total: 13.196200 ms (FindLiveObjects: 0.908200 ms CreateObjectMapping: 1.109300 ms MarkObjects: 10.730200 ms  DeleteObjects: 0.445800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:Unity.Play.Publisher.Editor: 48e8ab5cb9cd0cbbaed0d7c351ab5406 -> 
+  custom:scripting/monoscript/fileName/SettingsGUILayout.cs: 1bf4073b7b90c06a4199be7cdd2735ca -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PublisherWindow.cs: a29eeabed0c9d0114ef8bd94b6bbbe0e -> 
+  custom:scripting/monoscript/fileName/UserSettingsRepository.cs: ae597ef6d1f82569d0712c7aa6402b32 -> 
+  custom:scripting/monoscript/fileName/UnityConnectSession.cs: 81000dcd61327f8b7d6494a0ca07b89a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PublisherExamples.cs: d67324d69f8ca6ba12aeae2047801d40 -> 
+  custom:scripting/monoscript/fileName/Reducer.cs: ff42cf995375eca2ddbec55d915f32f9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 8c612763925b943c64e54855c759cc9e -> 
+  custom:scripting/monoscript/fileName/AnalyticsHelper.cs: 90a3c2817891c78f31bba044bfba19e2 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 136f9181567622a0dc32613566fb6f9c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PublisherBuildProcessor.cs: d5936c886290e19f64d4a1e878e0d15c -> 
+  custom:scripting/monoscript/fileName/PublisherUtils.cs: ece0b77e51cab9eef68c82b8d15e22e0 -> 
+  custom:scripting/monoscript/fileName/UserSettings.cs: 7f25df7dc904a2c7ba535252bfa35f9c -> e9dce23a4b1d0c68860976425321645e
+  custom:scripting/monoscript/fileName/Middleware.cs: c02c201933810f28405e59fd21d1c01a -> 
+  custom:scripting/monoscript/fileName/PackageSettingsRepository.cs: 3d7ef57a71ca69fa31cb043698cb6983 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FileSettingsRepository.cs: 26dd9fac1ce03dccc58801e79f909037 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ISettingsRepository.cs: c644889b75049794adfff59de4a57ec6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UserSettingsProvider.cs: cf93c9e7f0242ada7160bbcb19be7d9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProjectUserSettings.cs: 45b935268a6ef891e8577fe004b3f872 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 9d4a157f104d3387ed20a7ff2d47d587 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/AppState.cs: f99798133fcc7a29d4907586a94766ba -> 
+  custom:scripting/monoscript/fileName/Store.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 8120324be4f28417c9962bc3a65d04a0 -> 
+  custom:scripting/monoscript/fileName/ValueWrapper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SettingsDictionary.cs: deb5cd076ff61db1f023cc41ad83ead7 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: ecfde58f5f2276c57435e977dfe7f74c -> 
+  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridgeDev.001: 5d1183d15ce201ce7152061c0cf0e28e -> 
+  custom:scripting/monoscript/fileName/PublisherSettingsManager.cs: 309005a13b994a81c9335082ee614ebe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UIElementsUtils.cs: 783eb644ce2816674786787e48ace72a -> 
+  custom:scripting/monoscript/fileName/LocalizationDatabaseBridge.cs: 3cc57cea2cef6a88a20824c5a8b80705 -> 
+  custom:scripting/monoscript/fileName/Settings.cs: ea9d1b04d3864b3b689bed16ba2743db -> 
+  custom:scripting/monoscript/fileName/Attributes.cs: d94dab8e1cad1d516625e289629ba937 -> 0918f2ac579e1d4ee97c23132d40c768
+  custom:scripting/monoscript/fileName/UserSetting.cs: 9a8b723fb560f0e7a90b73c9a63a7958 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (282.0 KB). Loaded Objects now: 4726.
+Memory consumption went from 93.8 MB to 93.5 MB.
+Total: 10.308100 ms (FindLiveObjects: 0.684100 ms CreateObjectMapping: 0.683800 ms MarkObjects: 8.539500 ms  DeleteObjects: 0.398600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:Unity.Play.Publisher.Editor: 48e8ab5cb9cd0cbbaed0d7c351ab5406 -> 
+  custom:scripting/monoscript/fileName/SettingsGUILayout.cs: 1bf4073b7b90c06a4199be7cdd2735ca -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PublisherWindow.cs: a29eeabed0c9d0114ef8bd94b6bbbe0e -> 
+  custom:scripting/monoscript/fileName/UserSettingsRepository.cs: ae597ef6d1f82569d0712c7aa6402b32 -> 
+  custom:scripting/monoscript/fileName/UnityConnectSession.cs: 81000dcd61327f8b7d6494a0ca07b89a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PublisherExamples.cs: d67324d69f8ca6ba12aeae2047801d40 -> 
+  custom:scripting/monoscript/fileName/Reducer.cs: ff42cf995375eca2ddbec55d915f32f9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 8c612763925b943c64e54855c759cc9e -> 
+  custom:scripting/monoscript/fileName/AnalyticsHelper.cs: 90a3c2817891c78f31bba044bfba19e2 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 136f9181567622a0dc32613566fb6f9c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PublisherBuildProcessor.cs: d5936c886290e19f64d4a1e878e0d15c -> 
+  custom:scripting/monoscript/fileName/PublisherUtils.cs: ece0b77e51cab9eef68c82b8d15e22e0 -> 
+  custom:scripting/monoscript/fileName/UserSettings.cs: 7f25df7dc904a2c7ba535252bfa35f9c -> e9dce23a4b1d0c68860976425321645e
+  custom:scripting/monoscript/fileName/Middleware.cs: c02c201933810f28405e59fd21d1c01a -> 
+  custom:scripting/monoscript/fileName/PackageSettingsRepository.cs: 3d7ef57a71ca69fa31cb043698cb6983 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FileSettingsRepository.cs: 26dd9fac1ce03dccc58801e79f909037 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ISettingsRepository.cs: c644889b75049794adfff59de4a57ec6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UserSettingsProvider.cs: cf93c9e7f0242ada7160bbcb19be7d9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProjectUserSettings.cs: 45b935268a6ef891e8577fe004b3f872 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 9d4a157f104d3387ed20a7ff2d47d587 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/AppState.cs: f99798133fcc7a29d4907586a94766ba -> 
+  custom:scripting/monoscript/fileName/Store.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 8120324be4f28417c9962bc3a65d04a0 -> 
+  custom:scripting/monoscript/fileName/ValueWrapper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SettingsDictionary.cs: deb5cd076ff61db1f023cc41ad83ead7 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: ecfde58f5f2276c57435e977dfe7f74c -> 
+  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridgeDev.001: 5d1183d15ce201ce7152061c0cf0e28e -> 
+  custom:scripting/monoscript/fileName/PublisherSettingsManager.cs: 309005a13b994a81c9335082ee614ebe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UIElementsUtils.cs: 783eb644ce2816674786787e48ace72a -> 
+  custom:scripting/monoscript/fileName/LocalizationDatabaseBridge.cs: 3cc57cea2cef6a88a20824c5a8b80705 -> 
+  custom:scripting/monoscript/fileName/Settings.cs: ea9d1b04d3864b3b689bed16ba2743db -> 
+  custom:scripting/monoscript/fileName/Attributes.cs: d94dab8e1cad1d516625e289629ba937 -> 0918f2ac579e1d4ee97c23132d40c768
+  custom:scripting/monoscript/fileName/UserSetting.cs: 9a8b723fb560f0e7a90b73c9a63a7958 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.176 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.825 seconds
+Domain Reload Profiling: 13998ms
+	BeginReloadAssembly (533ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (136ms)
+	RebuildCommonClasses (138ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (2371ms)
+		LoadAssemblies (1719ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (929ms)
+			TypeCache.Refresh (690ms)
+				TypeCache.ScanAssembly (604ms)
+			ScanForSourceGeneratedMonoScriptInfo (130ms)
+			ResolveRequiredComponents (107ms)
+	FinalizeReload (10826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (395ms)
+			ProcessInitializeOnLoadAttributes (1672ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 9.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (295.0 KB). Loaded Objects now: 4741.
+Memory consumption went from 157.5 MB to 157.3 MB.
+Total: 10.522300 ms (FindLiveObjects: 0.702700 ms CreateObjectMapping: 0.677000 ms MarkObjects: 8.776700 ms  DeleteObjects: 0.363300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:Unity.Play.Publisher.Editor: 48e8ab5cb9cd0cbbaed0d7c351ab5406 -> 
+  custom:scripting/monoscript/fileName/SettingsGUILayout.cs: 1bf4073b7b90c06a4199be7cdd2735ca -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PublisherWindow.cs: a29eeabed0c9d0114ef8bd94b6bbbe0e -> 
+  custom:scripting/monoscript/fileName/UserSettingsRepository.cs: ae597ef6d1f82569d0712c7aa6402b32 -> 
+  custom:scripting/monoscript/fileName/UnityConnectSession.cs: 81000dcd61327f8b7d6494a0ca07b89a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PublisherExamples.cs: d67324d69f8ca6ba12aeae2047801d40 -> 
+  custom:scripting/monoscript/fileName/Reducer.cs: ff42cf995375eca2ddbec55d915f32f9 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EditorWindowCoroutineExtension.cs: 8c612763925b943c64e54855c759cc9e -> 
+  custom:scripting/monoscript/fileName/AnalyticsHelper.cs: 90a3c2817891c78f31bba044bfba19e2 -> 
+  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
+  custom:scripting/monoscript/fileName/EditorWaitForSeconds.cs: 136f9181567622a0dc32613566fb6f9c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PublisherBuildProcessor.cs: d5936c886290e19f64d4a1e878e0d15c -> 
+  custom:scripting/monoscript/fileName/PublisherUtils.cs: ece0b77e51cab9eef68c82b8d15e22e0 -> 
+  custom:scripting/monoscript/fileName/UserSettings.cs: 7f25df7dc904a2c7ba535252bfa35f9c -> e9dce23a4b1d0c68860976425321645e
+  custom:scripting/monoscript/fileName/Middleware.cs: c02c201933810f28405e59fd21d1c01a -> 
+  custom:scripting/monoscript/fileName/PackageSettingsRepository.cs: 3d7ef57a71ca69fa31cb043698cb6983 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/FileSettingsRepository.cs: 26dd9fac1ce03dccc58801e79f909037 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ISettingsRepository.cs: c644889b75049794adfff59de4a57ec6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/UserSettingsProvider.cs: cf93c9e7f0242ada7160bbcb19be7d9f -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProjectUserSettings.cs: 45b935268a6ef891e8577fe004b3f872 -> 
+  custom:scripting/monoscript/fileName/Localization.cs: 9d4a157f104d3387ed20a7ff2d47d587 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
+  custom:scripting/monoscript/fileName/AppState.cs: f99798133fcc7a29d4907586a94766ba -> 
+  custom:scripting/monoscript/fileName/Store.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutineUtility.cs: 8120324be4f28417c9962bc3a65d04a0 -> 
+  custom:scripting/monoscript/fileName/ValueWrapper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SettingsDictionary.cs: deb5cd076ff61db1f023cc41ad83ead7 -> 
+  custom:scripting/monoscript/fileName/EditorCoroutine.cs: ecfde58f5f2276c57435e977dfe7f74c -> 
+  custom:scripting/precompiled-assembly-types:Unity.InternalAPIEditorBridgeDev.001: 5d1183d15ce201ce7152061c0cf0e28e -> 
+  custom:scripting/monoscript/fileName/PublisherSettingsManager.cs: 309005a13b994a81c9335082ee614ebe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UIElementsUtils.cs: 783eb644ce2816674786787e48ace72a -> 
+  custom:scripting/monoscript/fileName/LocalizationDatabaseBridge.cs: 3cc57cea2cef6a88a20824c5a8b80705 -> 
+  custom:scripting/monoscript/fileName/Settings.cs: ea9d1b04d3864b3b689bed16ba2743db -> 
+  custom:scripting/monoscript/fileName/Attributes.cs: d94dab8e1cad1d516625e289629ba937 -> 0918f2ac579e1d4ee97c23132d40c768
+  custom:scripting/monoscript/fileName/UserSetting.cs: 9a8b723fb560f0e7a90b73c9a63a7958 -> 
